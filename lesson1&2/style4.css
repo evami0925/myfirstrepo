@@ -1,0 +1,12 @@
+section.showcase > div > .text > h1,
+section.showcase > div > .text > h2,
+section.showcase > header > .logo {
+  text-transform: uppercase;
+}
+section.showcase > header > .toggle {
+  background: url("./src/images/menu.svg");
+  width: 60px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
