@@ -1,4 +1,7 @@
-console.log("This is my first log");
-let a = 1;
-let b = 2;
-console.log(a + b);
+const toggle = document.querySelector(".toggle");
+const showcase = document.querySelector(".showcase");
+
+toggle.addEventListener("click", () => {
+  toggle.classList.toggle("active");
+  showcase.classList.toggle("active");
+});
